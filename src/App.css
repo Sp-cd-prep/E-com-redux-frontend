@@ -1,0 +1,84 @@
+/* App.css */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* App.css */
+/* Existing styles... */
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-item {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.blog-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.blog-item p {
+  color: #555;
+}
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cart-img img{
+width: 200px;
+height: 150px;
+background-size: cover;
+}
